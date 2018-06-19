@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Bar Loader</title>
+        <link rel="icon" href="icon.png">
+        <link href="main.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div id="settings">
+            <div class="weight">
+                <strong class="label">Barbell Weight:</strong>
+                <select class="unit" id="barbellUnit">
+                    <option>kg</option>
+                    <option>lb</option>
+                </select>
+                <input type="number" id="barbellText" value="20">
+            </div>
+
+            <div class="weight">
+                <strong id="collar" class="label">Collar Weight:</strong>
+                <select class="unit" id="collarUnit">
+                    <option>kg</option>
+                    <option>lb</option>
+                </select>
+                <input type="number" id="collarText" value="2.5">
+            </div>
+
+            <div class="weight">
+                <strong id="total" class="label">Total Weight:</strong>
+                <select class="unit" id="totalUnit">
+                    <option>kg</option>
+                    <option selected="selected">lb</option>
+                </select>
+                <input type="number" id="totalText">
+            </div>
+
+            <button type="button" id="load">Load Weight</button>
+        </div>
+
+        <div id="curWeight">
+            <strong></strong>
+        </div>
+
+        <div id="canvasHolder">
+            <canvas id="myCanvas"></canvas>
+        </div>
+
+        <script src="draw.js"></script>
+
+    </body>
+
+</html>

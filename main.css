@@ -1,0 +1,63 @@
+body {
+    background: #2d2d2d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.label {
+    color: #f0f0f0;
+    float: left;
+    margin-top: 2px;
+}
+
+textarea {
+    width: 50px;
+    height: 15px;
+    float: right;
+}
+
+input {
+    width: 50px;
+    height: 15px;
+    float: right;
+}
+
+canvas {
+    width: 400px;
+    height: 200px;
+}
+
+#canvasHolder {
+    text-align: center;
+}
+
+#settings {
+    width: 235px;
+    height: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#collar {
+    margin-left: 10px;
+}
+
+#total {
+    margin-left: 18px;
+}
+
+#curWeight {
+    margin: 5px 0px;
+    text-align: center;
+    color: #f0f0f0;
+    font-size: 25pt;
+}
+
+.unit {
+    float: right;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.weight {
+    height: 30px;
+}
