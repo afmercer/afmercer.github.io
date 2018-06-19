@@ -30,8 +30,12 @@ canvas {
     text-align: center;
 }
 
+#buttonHolder {
+    text-align: center;
+}
+
 #settings {
-    width: 235px;
+    width: 255px;
     height: 100%;
     margin: 0px auto;
     text-align: center;
@@ -54,7 +58,7 @@ canvas {
 
 .unit {
     float: right;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 2px;
 }
 
